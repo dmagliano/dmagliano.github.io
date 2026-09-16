@@ -385,6 +385,18 @@ h3 {
   text-underline-offset: 0.3rem;
 }
 
+.projects-closing {
+  margin-top: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.75rem;
+  margin-top: 1.25rem;
+}
+
 footer {
   display: flex;
   min-height: 6rem;
@@ -411,7 +423,7 @@ footer {
   }
 
   .project-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
